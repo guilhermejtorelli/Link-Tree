@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Great+Vibes&display=swap');
 
 
 body{
@@ -12,9 +12,9 @@ body{
        /*background: linear-gradient(90deg yellow, red);*/
        /* background: radial-gradient(yellow, red);*/
 
-       background-image: url("../recursos/img/image.png");
+       background-image: url("../recursos/img/fundo.avif");
 
-       background-size: 1300px;
+       background-size: 100%;
 
 
        /*background: no-repeat;*/
@@ -43,14 +43,14 @@ img{
 
 .titulos{
     text-align: center;
-    color:rgba(7, 109, 192, 0.699)
+    color:rgba(224, 124, 10, 0.829)
     
     
 
 }
 
 h1{
-    
+
     font-size: 50px;
     font-family: "Great Vibes", cursive;
   font-weight: 400;
@@ -64,13 +64,17 @@ h1{
 
 h2{
 
-  font-family: "Story Script", sans-serif;
+    font-size: 30px;
+    font-family: "Creepster", system-ui;
   font-weight: 400;
   font-style: normal;
   
+  /*TOP RIGHT BOTTOM LEFT*/
+  margin: 0px 0px 50px 0px;
+
+
 }
 
-  
 figure{
 
     display:flex;
@@ -106,6 +110,7 @@ figure{
   /*aumenta o texto*/
   font-size: 40px;
 
+  transform:rotate(20deg);
 
   background-color: rgb(175, 219, 16);
   
@@ -139,9 +144,16 @@ svg:hover{
   
   fill:aqua;
 
-
+ transform:rotate(20deg);
 
 
 }
 
 
+#modoEscuro{
+
+
+    position: absolute;
+    top: 50%;
+   right: 10%;
+}
